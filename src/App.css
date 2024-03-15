@@ -1,0 +1,81 @@
+.App {
+  overflow-x: hidden;
+}
+.Home{
+  background-image:linear-gradient(to top right,rgba(0,0,0,5),rgba(0,0,0,0)) ,url(https://images6.alphacoders.com/134/1345438.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Home table{
+  border: 2px solid whitesmoke;
+  width: 40vw;
+  background: linear-gradient(transparent,rgba(0,0,0,4));
+  margin-top: 5vw;
+}
+.Cgpacalculator{
+  height: auto;
+  width: 20rem;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 3px black solid;
+  margin: 2.5%;
+  gap: 3px;
+  font-size: small;
+  background: linear-gradient(transparent,rgba(0,0,0,4));
+}
+.Cgpacalculator input{
+  text-align: center;
+}
+.CardBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(32,87,100);
+  background-image: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0));
+  color: whitesmoke;
+}
+.Footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(32,87,100);
+  padding-left: 1vw;
+}
+@media screen and (max-width: 600px){
+  .Home{
+    background-image:linear-gradient(to top right,rgba(0,0,0,5),rgba(0,0,0,0)) ,url(https://images6.alphacoders.com/134/1345438.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Home table{
+    border: 2px solid whitesmoke;
+    width: 80vw;
+    background: linear-gradient(transparent,rgba(0,0,0,4));
+    margin-left: 10vw;
+    margin-top: 5vw;
+  }
+  .Home p{
+    margin-left: 5vw;
+  }
+  .Cgpacalculator{
+    width:18rem;
+    border-radius:1px black solid ;
+  }
+  .Footer{
+    height: 10vh;
+  }
+}
